@@ -64,27 +64,59 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-a .nav-links {
+
+nav div {
 	display: inline-block;
-	margin-left: 50px;
+	padding: 2%;
 }
+
 .nav-links {
-	display: inline-block;
+	width: 70%;
 	
 }
+
+.nav-links a {
+	
+	margin:0 5%;
+	background-color: red;
+}
+/* .nav-links {
+	display: inline-block;
+	
+} */
 .nav-logo {
 	display: inline-block;
-	margin-left: 30%;
+	width:  20%;
+	margin-left: 0%;
+	
 }
 
 
 .banner {
-	
+
+
 }
 
 .banner div{
 	display:inline-block;
+	background-color: red;
+	
 }
-.banner h2{
+.banner-title{
 	font-size: 50px;
+	padding-top: 0vh;
+	margin: 0 10%;
+}
+.intro-text section {
+	display: inline-block;
+	width: 20%;
+	background-color: red;
+	margin: auto;
+}
+.intro-text h3 {
+	font-size: 50px;
+}
+.bottom section {
+	display: inline-block;
+	width: 20%;
 }
