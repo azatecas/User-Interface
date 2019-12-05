@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -71,19 +71,23 @@ nav div {
 }
 
 .nav-links {
-	width: 70%;
+	width: 65%;
 	
 }
 
 .nav-links a {
 	
 	margin:0 5%;
-	background-color: red;
+	font-size: 18px;
+	/* background-color: red; */
+	color: grey;
+	text-decoration: none;
 }
-/* .nav-links {
-	display: inline-block;
+.nav-links a:hover {
+	color: rgb(59, 54, 54);
 	
-} */
+	
+}
 .nav-logo {
 	display: inline-block;
 	width:  20%;
@@ -91,32 +95,117 @@ nav div {
 	
 }
 
+.main-content {
+	/* border: 5px solid red; */
+	margin: 0px 70px;
+	padding: 0px 10px;
+}
+
 
 .banner {
-
+border-bottom: 2px solid black;
+margin: 15px 0;
+padding-bottom: 15vh;
 
 }
 
 .banner div{
 	display:inline-block;
-	background-color: red;
+	/* background-color: red; */
+	padding: 3% 0;
 	
 }
 .banner-title{
-	font-size: 50px;
+	font-size: 80px;
+	width: 20%;
 	padding-top: 0vh;
 	margin: 0 10%;
+	text-align: center;
+
+}
+.banner-image{
+	margin-left: 15%
+	transform: scale(1.3);
+}
+.banner-image img{
+	margin-left: 15%
+	
+	
+}
+.banner button {
+	display: inline-block;
+	width: 30vh;
+	height: 5vh;
+	background-color: white;
+	border: 2px solid grey;
+
+	
+}
+.banner button:hover {
+	background-color: grey;
+	color: white;
+	border: 2px solid black;
+}
+.intro-text {
+	/* text-align:center; */
+	/* border:5px solid blue; */
+	width: 100%;
+	margin: 5vh 0;
+	
 }
 .intro-text section {
 	display: inline-block;
-	width: 20%;
-	background-color: red;
+	width: 49%;
+	/* S */
+	margin: auto;
+	text-align: left;
+	/* border: 1px solid red; */
+}
+h3 {
+	font-size: 35px;
+}
+
+ p {
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+.middle-img {
+	width: 100%;
 	margin: auto;
 }
-.intro-text h3 {
-	font-size: 50px;
+.middle-img {
+	text-align: center;
+}
+
+.box-format  {
+	display: inline-block;
+	width: 30%;
+	/* S */
+	margin: auto;
+	text-align: left;
+	/* border: 1px solid red; */
+}
+.bottom {
+	/* text-align: center; */
+	margin: auto;
+	border-bottom: 2px solid black;
 }
 .bottom section {
+
 	display: inline-block;
-	width: 20%;
+	margin: 8vh 0;
+	width: 33%;
+	
+}
+footer {
+	margin: 7vh 0;
+	line-height: 1.5;
+}
+section {
+	/* padding-left: 2vh;  */
+	
+}
+.copyright {
+	text-align: center;
 }
